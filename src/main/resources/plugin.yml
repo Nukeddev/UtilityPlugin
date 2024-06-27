@@ -1,0 +1,7 @@
+name: UtilityPlugin
+version: '${project.version}'
+main: org.dbwztools.es.utilityplugin.UtilityPlugin
+api-version: '1.21'
+authors:
+  - DelawareX
+  - Nukedev
