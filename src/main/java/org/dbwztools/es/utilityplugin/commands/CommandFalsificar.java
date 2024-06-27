@@ -1,5 +1,6 @@
 package org.dbwztools.es.utilityplugin.commands;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,7 +19,7 @@ public class CommandFalsificar implements CommandExecutor {
         }
 
         Player player = commandSender.getServer().getPlayer(nick);
-        player.chat(mensaje);
+        player.chat(ChatColor.translateAlternateColorCodes('&',mensaje));
 
         return true;
     }
