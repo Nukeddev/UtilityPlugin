@@ -6,4 +6,9 @@ authors:
   - DelawareX
   - Nukedev
 commands:
-  suicide: Utilizalo para suicidarte
+  suicide:
+    description: Utilizalo para suicidarte
+    usage: /suicide
+  falsificar:
+    description: Utilizalo para falsificar un mensaje de un Jugador
+    usage: /falsificar <player> <message>
