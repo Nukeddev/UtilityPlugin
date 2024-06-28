@@ -10,7 +10,7 @@ public class CommandSuicide implements CommandExecutor {
     @Override
     public boolean onCommand ( CommandSender commandSender, Command command, String s, String[] args ) {
         if(commandSender instanceof Player player){
-            player.setHealthScale ( 0.0 );
+            player.setHealth ( 0.0 );
             player.sendMessage ( Color.RED + "Te has suicidado" );
             return true;
         }
