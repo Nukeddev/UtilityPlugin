@@ -9,7 +9,6 @@ import org.bukkit.entity.Player;
 public class CommandFalsificar implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        // /falsificar <jugador> <mensaje>
 
         String nick;
         nick = strings[0];
