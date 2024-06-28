@@ -12,3 +12,9 @@ commands:
   falsificar:
     description: Utilizalo para falsificar un mensaje de un Jugador
     usage: /falsificar <player> <message>
+  prohibir:
+    description: Utilizalo para prohibir un Item
+    usage: /prohibir
+  invisible:
+    description: Utilizalo para hacerte invisible
+    usage: /invisible
